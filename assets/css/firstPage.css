@@ -1,0 +1,55 @@
+.bodyOne {
+  height: 600px;
+  width: 1280px;
+  display: flex;
+  margin: auto;
+}
+
+.twoPhoto {
+  margin-top: 30px;
+  height: 510px;
+  width: 640px;
+  display: flex;
+  justify-content: space-between;
+}
+.first,
+.second {
+  height: 385px;
+  width: 312px;
+  position: relative;
+}
+.twoPhoto img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.first {
+  position: relative;
+}
+.first img {
+  object-position: 0% 0%;
+}
+.second img {
+  object-position: 0% 20%;
+}
+.second {
+  align-self: flex-end;
+}
+.bodyOneText {
+  margin: auto 0;
+  width: 640px;
+}
+.bodyOneTextOne, .bodyOneTextOne .yellow {
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 52px;
+  margin-bottom: 20px;
+  width: 85%;
+}
+.bodyOneTextTwo {
+  font-size: 1.3rem;
+  line-height: 2rem;
+  color: rgb(92, 92, 92);
+  width: 85%;
+}

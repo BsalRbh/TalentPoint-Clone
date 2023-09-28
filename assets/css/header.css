@@ -1,0 +1,72 @@
+*{
+  font-size: 1rem;
+  font-family: sans-serif;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+ margin: auto 0px;
+ 
+}
+
+.header-outer {
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  height: 44px;
+  display: flex;
+}
+.header {
+  margin: 0 auto;
+  width: 1124px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.header img {
+  height: 120%;
+  cursor: pointer;
+}
+.header-info li {
+  display: inline;
+  margin: 0 3rem 0 0;
+  vertical-align: middle;
+  cursor: pointer;
+}
+.header-info {
+  display: flex;
+  margin-top: auto;
+  margin-bottom: auto;
+  height: 100%;
+  width: 65%;
+  justify-content: end;
+}
+.apply-button {
+  padding: 0.5rem 0.8rem;
+  height: 100%;
+  cursor: pointer;
+  margin-right: 10px;
+  /* border-radius: 7px; */
+  border: black  0.1px solid;
+  border-radius: 10px;
+}
+.apply-button:hover {
+  background-color: #484848;
+  color: white;
+
+}
+.hire-button {
+  background-color: #efb10f;
+  height: 100%;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 112px;
+  
+  
+}
+.hire-button:hover {
+  background-color: #f5de83;
+}

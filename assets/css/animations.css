@@ -1,0 +1,61 @@
+.animation-box1 {
+  box-sizing: border-box;
+  height: 100px;
+  width: 156px;
+  background-color: #262626;
+  color: white;
+  padding: 0.8rem 0.5rem;
+  position: absolute;
+  text-align: left;
+  top: 2%;
+  right: -40%;
+  border-radius: 5px;
+}
+
+.anime {
+  margin-top: 4px;
+  font-size: 2rem;
+  height: 1.8rem;
+  overflow-y: hidden;
+  display: flex;
+  flex-direction: column;
+}
+@keyframes textanime {
+  0% {
+    top: 0%;
+  }
+  33.33% {
+    top: -100%;
+  }
+  66.66% {
+    top: -200%;
+  }
+  100% {
+    top: -300%;
+  }
+}
+.object {
+    font-weight: bold;
+  position: relative;
+  font-size: 1.5rem;
+  height: 1.8rem;
+  animation: textanime 3s cubic-bezier(0.8, 0, 0, 1) infinite;
+}
+.animation-circle{
+    box-sizing: border-box;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    background-color: #262626;
+    color: white;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    right: -10%;
+    bottom: 10%;
+    border: white solid 4px;
+   
+ }
