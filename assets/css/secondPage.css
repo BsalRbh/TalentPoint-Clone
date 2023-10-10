@@ -3,6 +3,8 @@
   height: 156px;
   display: flex;
   justify-content: center;
+  min-width: 1280px;
+
 }
 .logo-swiper {
   box-sizing: border-box;
@@ -14,6 +16,7 @@
   position: relative;
   display: flex;
   padding: 0.5rem 0;
+  outline: solid black;
 }
 
 @keyframes swipe {
@@ -89,7 +92,8 @@
 .slide-post {
   font-size: 1.1rem;
 }
-.previous,.next{
+.previous,
+.next {
   background-color: white;
   border: none;
   height: 70px;
@@ -97,30 +101,30 @@
   position: absolute;
   border-radius: 50%;
   cursor: pointer;
- 
 }
-.previous{
+.previous {
   top: 50%;
   left: -2.5%;
 }
-.next{
-  top:50%;
-  right:-2.5%;
+.next {
+  top: 50%;
+  right: -2.5%;
 }
 
-.thirdElement-wrapper{
-  background: linear-gradient(266.26deg,#212121 20.42%,#2e2e2e 91.84%);
+.thirdElement-wrapper {
+  background: linear-gradient(266.26deg, #212121 20.42%, #2e2e2e 91.84%);
   padding-top: 64px;
+  min-width: 1280px;
 }
-.thirdElement{
+.thirdElement {
   width: 1280px;
   margin: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.text{
-  color:white;
+.text {
+  color: white;
   font-size: 2rem;
   margin: 0 auto 40px auto;
   font-weight: bold;
@@ -131,7 +135,7 @@
   margin-right: 100px;
 }
 
-.thirdElement-but-text{
+.thirdElement-but-text {
   color: white;
   margin-top: 30px;
 }
