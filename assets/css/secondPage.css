@@ -4,7 +4,6 @@
   display: flex;
   justify-content: center;
   min-width: 1280px;
-
 }
 .logo-swiper {
   box-sizing: border-box;
@@ -16,7 +15,6 @@
   position: relative;
   display: flex;
   padding: 0.5rem 0;
-  outline: solid black;
 }
 
 @keyframes swipe {
